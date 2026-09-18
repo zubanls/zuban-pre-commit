@@ -8,8 +8,8 @@ Example `.pre-commit-config.yaml`:
 
 ```yaml
 repos:
-  - repo: https://github.com/dunossauro/zuban-pre-commit
-    rev: v0.9.3
+  - repo: https://github.com/zubanls/zuban-pre-commit
+    rev: v0.10.0
     hooks:
       # Run `zuban check`
       - id: zuban
@@ -42,8 +42,8 @@ Example `prek.toml`:
 
 ```toml
 [[repos]]
-repo = "https://github.com/dunossauro/zuban-pre-commit"
-rev = "v0.9.3"
+repo = "https://github.com/zubanls/zuban-pre-commit"
+rev = "v0.10.0"
 
 hooks = [
   { id = "zuban", args = ["--pretty"] },            # default / auto-detected mode
